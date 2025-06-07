@@ -12,3 +12,17 @@ mux2_1_tb.v – Testbench for simulation
 Simulation output 
 
 ![Simulation Output](day1mux2_1.png)
+
+# Day 02-4:1 MUX using structural Verilog.
+🔀 4:1 Multiplexer – structural Verilog
+Implements a 4:1 multiplexer using structural modeling in Verilog. The output y is selected based on 2-bit input sel.
+
+📁 Files
+
+mux4_1_struct.v: MUX implementation
+
+mux4_1tb.v: Testbench for simulation
+
+Simulation output
+
+![Simulation Output](day2mux4_1.png)
