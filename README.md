@@ -11,4 +11,4 @@ mux2_1_tb.v – Testbench for simulation
 
 Simulation output 
 
-![Simulation Output](images/gtkwave_output.png)
+![Simulation Output](day1mux2_1.png)
