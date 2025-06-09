@@ -26,3 +26,17 @@ mux4_1tb.v: Testbench for simulation
 Simulation output
 
 ![Simulation Output](day2mux4_1.png)
+
+# Day 03- 1-bit Full Adder.
+🔀 1-bit Full Adder 
+This project implements a 1-bit Full Adder using Verilog. A Full Adder takes three inputs (a, b, and cin) and produces two outputs: sum and cout. It is a basic building block used in arithmetic circuits such as adders and ALUs.
+
+📁 Files
+
+fuladd.v – Verilog module for the 1-bit Full Adder
+
+fulladd_tb.v- Testbench for simulation
+
+Simulation output
+
+![Simulation Output](day3full_adder.png)
