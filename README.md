@@ -40,3 +40,17 @@ fulladd_tb.v- Testbench for simulation
 Simulation output
 
 ![Simulation Output](day3full_adder.png)
+
+# Day 04- 4-bit Ripple Carry Adder.
+🔀 4-bit Ripple Carry Adder
+This project implements a 4-bit Ripple Carry Adder (RCA) using Verilog HDL. The design consists of a basic full adder module and a top-level RCA module built by cascading four full adders. A testbench is also provided for functional simulation.
+
+📁 Files
+
+ripple_adder.v-Verilog module for the 4-bit Ripple Carry Adder.
+
+ripple_adder_tb.v-Testbench for simulation
+
+Simulation output
+
+![Simulation Output](day4ripple_adder.png)
