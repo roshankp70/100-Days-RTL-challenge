@@ -28,7 +28,7 @@ Simulation output
 ![Simulation Output](day2mux4_1.png)
 
 # Day 03- 1-bit Full Adder.
-🔀 1-bit Full Adder 
+🔀 1-bit Full Adder -
 This project implements a 1-bit Full Adder using Verilog. A Full Adder takes three inputs (a, b, and cin) and produces two outputs: sum and cout. It is a basic building block used in arithmetic circuits such as adders and ALUs.
 
 📁 Files
@@ -42,7 +42,7 @@ Simulation output
 ![Simulation Output](day3full_adder.png)
 
 # Day 04- 4-bit Ripple Carry Adder.
-🔀 4-bit Ripple Carry Adder
+🔀 4-bit Ripple Carry Adder-
 This project implements a 4-bit Ripple Carry Adder (RCA) using Verilog HDL. The design consists of a basic full adder module and a top-level RCA module built by cascading four full adders. A testbench is also provided for functional simulation.
 
 📁 Files
@@ -54,3 +54,17 @@ ripple_adder_tb.v-Testbench for simulation
 Simulation output
 
 ![Simulation Output](day4ripple_adder.png)
+
+# Day 05- 4-bit Subtractor.
+🔀 4-bit Subtractor-
+This project implements a 4-bit binary subtractor using Verilog HDL. The subtractor is constructed using XOR gates and full adder logic by taking the 2's complement of the second input. The design includes a main subtractor module and a testbench for simulation.
+
+📁 Files
+
+subtractor_4bit_2scomp.v– Verilog module for the 4-bit Subtractor.
+
+tb_subtractor_4bit_2scomp.v-Testbench for functional simulation.
+
+Simulation output
+
+![Simulation Output](day5full_sub.png)
