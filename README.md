@@ -11,7 +11,7 @@ mux2_1_tb.v – Testbench for simulation
 
 Simulation output 
 
-![Simulation Output](day1mux2_1.png)
+![Image](https://github.com/user-attachments/assets/a024d0ef-4f93-461e-9428-65745e8e5ea4)
 
 # Day 02-4:1 MUX using structural Verilog.
 🔀 4:1 Multiplexer – structural Verilog
@@ -25,7 +25,7 @@ mux4_1tb.v: Testbench for simulation
 
 Simulation output
 
-![Simulation Output](day2mux4_1.png)
+![Image](https://github.com/user-attachments/assets/c8a4aaaa-8ee6-45fa-b533-eb0505039479)
 
 # Day 03- 1-bit Full Adder.
 🔀 1-bit Full Adder -
@@ -39,7 +39,7 @@ fulladd_tb.v- Testbench for simulation
 
 Simulation output
 
-![Simulation Output](day3full_adder.png)
+![Image](https://github.com/user-attachments/assets/6297207f-e0f0-404c-86e8-98067834204d)
 
 # Day 04- 4-bit Ripple Carry Adder.
 🔀 4-bit Ripple Carry Adder-
@@ -53,7 +53,7 @@ ripple_adder_tb.v-Testbench for simulation
 
 Simulation output
 
-![Simulation Output](day4ripple_adder.png)
+![Image](https://github.com/user-attachments/assets/cf407f03-464f-4e39-9a8c-574de6f957a5)
 
 # Day 05- 4-bit Subtractor.
 🔀 4-bit Subtractor-
@@ -67,4 +67,4 @@ tb_subtractor_4bit_2scomp.v-Testbench for functional simulation.
 
 Simulation output
 
-![Simulation Output](day5full_sub.png)
+![Image](https://github.com/user-attachments/assets/a87c5ac9-8f22-4e80-8d98-e0585ea3beda)
