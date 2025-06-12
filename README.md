@@ -82,3 +82,28 @@ decoder_tb.v- Testbench for simulating the decoder.
 simulation output
 
 ![Image](https://github.com/user-attachments/assets/3bf9ffb4-9c7e-4703-a666-2b972a06a8a6)
+
+# Day 07- 8:3 Encoder and Priority Encoder
+
+🔀Basic 8:3 Encoder: Encodes a single high input among 8 inputs into a 3-bit binary output.
+
+🔀Priority Encoder (8:3): Encodes multiple active inputs by giving priority to the highest-indexed bit.
+
+📁 Files
+
+encoder.v- 8:3 basic encoder
+
+encoder_tb.v-Testbench for basic encoder
+
+priority_encoder.v-8:3 priority encoder 
+
+priority_encoder_tb.v	-Testbench for priority encoder
+
+simulation output(8:3 Encoder)
+
+![Image](https://github.com/user-attachments/assets/207d2e91-a901-4186-9431-1a72e1d4c34b)
+
+simulation output(8:3 Priority Encoder)
+
+![image](https://github.com/user-attachments/assets/db276b8e-42d8-4fcc-b2de-bb3806b70eb4)
+
