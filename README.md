@@ -68,3 +68,17 @@ tb_subtractor_4bit_2scomp.v-Testbench for functional simulation.
 Simulation output
 
 ![Image](https://github.com/user-attachments/assets/a87c5ac9-8f22-4e80-8d98-e0585ea3beda)
+
+# Day 06- 3:8 Decoder
+🔀 3:8 Decoder-
+This project implements a 3:8 Decoder using Verilog HDL. A 3:8 decoder takes a 3-bit binary input and activates exactly one of eight outputs based on the input combination.
+
+📁 Files
+
+decoder.v- Verilog module for 3:8 decoder.
+
+decoder_tb.v- Testbench for simulating the decoder.
+
+simulation output
+
+![Image](https://github.com/user-attachments/assets/3bf9ffb4-9c7e-4703-a666-2b972a06a8a6)
