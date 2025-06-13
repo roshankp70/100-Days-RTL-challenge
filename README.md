@@ -107,3 +107,30 @@ simulation output(8:3 Priority Encoder)
 
 ![image](https://github.com/user-attachments/assets/db276b8e-42d8-4fcc-b2de-bb3806b70eb4)
 
+# Day 08- Binary to Gray and Gray to Binary conversion.
+
+🔀 This project implements two digital logic modules:
+
+Binary to Gray code conversion
+
+Gray to Binary code conversion
+
+Both are written in Verilog and verified using simple testbenches.
+
+📁 Files
+
+binary_to_gray.v- converts binary to gray code.
+
+binary_to_gray_tb.v- testbench for verification.
+
+gary_to_binary.v- converts gray to binary.
+
+gary_to_binary_tb.v- testbench for verification.
+
+simulation output(binary to gray)
+
+![Image](https://github.com/user-attachments/assets/c03f68f4-4dd9-41fe-bfd6-3ee70eb52a04)
+
+simulation output(Gray to binary)
+
+![Image](https://github.com/user-attachments/assets/c8f20e8c-c379-49ec-a614-ba92f1901cd9)
