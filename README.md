@@ -134,3 +134,25 @@ simulation output(binary to gray)
 simulation output(Gray to binary)
 
 ![Image](https://github.com/user-attachments/assets/c8f20e8c-c379-49ec-a614-ba92f1901cd9)
+
+# Day 09-  Half Adder, Full Adder, 4-bit Ripple Carry Adder.
+
+🔀 This project includes Verilog code for:
+
+- Half Adder  
+- Full Adder (using two Half Adders)  
+- 4-bit Ripple Carry Adder (RCA) built using Full Adders
+ 
+📁 Files
+
+halfadder.v- module for halfadder.
+
+fulladder.v- module for fulladder.
+
+Half_Full_RCA_Adder - module for ripple carry adder.
+
+simulation output
+
+![Image](https://github.com/user-attachments/assets/31e9da1d-fb6c-403a-93cb-4ce8ae959287)
+
+
