@@ -155,4 +155,16 @@ simulation output
 
 ![Image](https://github.com/user-attachments/assets/31e9da1d-fb6c-403a-93cb-4ce8ae959287)
 
+# Day 10-  Carry look ahead adder.
 
+🔀 This project implements a 4-bit Carry Lookahead Adder (CLA) using Verilog HDL. The CLA is a fast adder circuit that improves performance by reducing the propagation delay seen in ripple-carry adders.
+
+📁 Files
+
+cla_adder.v- module for carry look ahead adder.
+
+cla_adder_tb.v- testbench for simulation.
+
+simulation output
+
+![Image](https://github.com/user-attachments/assets/32e63f57-eb79-4539-b575-a413880e143c)
