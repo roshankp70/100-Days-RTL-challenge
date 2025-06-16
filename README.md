@@ -168,3 +168,23 @@ cla_adder_tb.v- testbench for simulation.
 simulation output
 
 ![Image](https://github.com/user-attachments/assets/32e63f57-eb79-4539-b575-a413880e143c)
+
+# Day 11- D Flip-Flop.
+
+🔀 This is a Verilog code for a D Flip-Flop that:
+
+-Updates output q on the rising edge of the clock.
+
+-Has an asynchronous reset (active high).
+
+-Optionally includes qbar as the inverse of q.
+
+📁 Files
+
+d_flipflop.v- module for d flipflop.
+
+d_flipflop_tb.v- testbench fo simulation.
+
+simulation output
+
+![Image](https://github.com/user-attachments/assets/cad67103-f612-4a00-a6bd-abd618badae1)
