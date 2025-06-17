@@ -188,3 +188,48 @@ d_flipflop_tb.v- testbench fo simulation.
 simulation output
 
 ![Image](https://github.com/user-attachments/assets/cad67103-f612-4a00-a6bd-abd618badae1)
+
+# Day 12-  JK and T Flip-Flops.
+
+🔀 JK Flip-Flop
+Inputs: J, K, clk, reset
+
+Outputs: Q, Q̅ (complement)
+
+Behavior:
+
+J=0, K=0 → No change
+
+J=0, K=1 → Reset (Q=0)
+
+J=1, K=0 → Set (Q=1)
+
+J=1, K=1 → Toggle (Q=~Q)
+
+🔀T Flip-Flop
+Inputs: T, clk, reset
+
+Outputs: Q, Q̅ (complement)
+
+Behavior:
+
+T=0 → No change
+
+T=1 → Toggle (Q=~Q)
+
+📁 Files
+
+JK_flipflop.v- Verilog code for JK flip-flop with async reset
+
+jk_flipflop_tb.v-	Testbench for JK flip-flop
+
+T_flipflop.v	-Verilog code for T flip-flop with async reset
+
+T_flipflop_tb.v-	Testbench for T flip-flop
+
+simulation output(JK flipflop)
+![Image](https://github.com/user-attachments/assets/060add8a-bc15-4bba-ad69-53753169e7b0)
+![Image](https://github.com/user-attachments/assets/50f1356e-94d7-4e8c-a493-fe0786dda823)
+
+simulation output(T flipflop)
+![Image](https://github.com/user-attachments/assets/5bbc96ac-9c95-4c52-b448-f453e5d97818)
