@@ -233,3 +233,20 @@ simulation output(JK flipflop)
 
 simulation output(T flipflop)
 ![Image](https://github.com/user-attachments/assets/5bbc96ac-9c95-4c52-b448-f453e5d97818)
+
+# Day 12 - 4-bit Up Counter.
+
+🔀This project implements a 4-bit synchronous up counter in Verilog with an active-high reset.
+
+- 4-bit output (counts 0 to 15)
+- Positive-edge clock triggered
+- Asynchronous active-high reset
+
+📁 Files
+
+ Up_Counter_4_bit - module foe 4-bit upcounter
+
+ Up_Counter_4_bit_tb - testbench for simulation
+
+simulation output
+![Image](https://github.com/user-attachments/assets/c4cef6c5-9258-4399-844c-4b93f3d455d6)
