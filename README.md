@@ -234,7 +234,7 @@ simulation output(JK flipflop)
 simulation output(T flipflop)
 ![Image](https://github.com/user-attachments/assets/5bbc96ac-9c95-4c52-b448-f453e5d97818)
 
-# Day 12 - 4-bit Up Counter.
+# Day 13 - 4-bit Up Counter.
 
 🔀This project implements a 4-bit synchronous up counter in Verilog with an active-high reset.
 
@@ -250,3 +250,16 @@ simulation output(T flipflop)
 
 simulation output
 ![Image](https://github.com/user-attachments/assets/c4cef6c5-9258-4399-844c-4b93f3d455d6)
+
+# Day 14 -asynchronous Down Counter.
+
+🔀This project implements a 4-bit synchronous down counter using Verilog. The counter decreases its value by 1 on every positive clock edge and supports an active-high reset to initialize the counter to 1111.
+
+📁 Files
+
+down_counter.v - Verilog module for the 4-bit down counter
+
+down_counter_tb.v - Testbench to simulate the counter
+
+simulation output
+![Image](https://github.com/user-attachments/assets/63693d3e-dc50-4de1-b781-7e7a8dda8550)
