@@ -263,3 +263,16 @@ down_counter_tb.v - Testbench to simulate the counter
 
 simulation output
 ![Image](https://github.com/user-attachments/assets/63693d3e-dc50-4de1-b781-7e7a8dda8550)
+
+# Day 15 - Parameterized N-bit counter
+
+🔀This project implements a parameterized N-bit synchronous up counter in Verilog. The counter width can be configured easily by changing a parameter, making the module reusable for various applications requiring different bit-widths
+
+📁 Files
+
+n_bit_counter.v - Verilog module for the parameterized counter
+
+n_bit_counter_tb.v - Testbench to simulate the counter
+
+simulation output
+![Image](https://github.com/user-attachments/assets/83606580-70fb-4ec8-9fcc-d69dfbd59ea1)
