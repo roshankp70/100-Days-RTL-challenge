@@ -276,3 +276,25 @@ n_bit_counter_tb.v - Testbench to simulate the counter
 
 simulation output
 ![Image](https://github.com/user-attachments/assets/83606580-70fb-4ec8-9fcc-d69dfbd59ea1)
+
+# Day 16 - Moore FSM for detecting sequence 1011.
+
+🔀 Moore finite state machine (FSM) in Verilog to detect the binary sequence 1011 in a serial input stream. The FSM outputs 1 when the complete sequence is detected.
+
+-Detects the sequence 1011 using Moore FSM logic.
+
+-Allows overlapping sequences (e.g., 1011011 detects twice).
+
+-Output is 1 only in the final state after detecting the sequence.
+
+📁 Files
+
+moore_fsm.v – Verilog code for the FSM module.
+
+moore_fsm_tb.v – Testbench to simulate the FSM.
+
+simulation output
+
+![Image](https://github.com/user-attachments/assets/8c9cb507-2ac1-453f-ad92-49569a61c64a)
+
+
