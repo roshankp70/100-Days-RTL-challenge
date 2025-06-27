@@ -297,4 +297,28 @@ simulation output
 
 ![Image](https://github.com/user-attachments/assets/8c9cb507-2ac1-453f-ad92-49569a61c64a)
 
+# Day 17 - Mealy FSM for 1011.
 
+🔀Mealy-type Finite State Machine (FSM) to detect the binary sequence 1011. The FSM outputs 1 immediately when the full sequence is detected, and supports overlapping sequences.
+
+Inputs:
+
+clk : Clock signal
+
+reset : Asynchronous reset (active high)
+
+x : Serial binary input
+
+Output:
+
+z : Output is 1 when the sequence 1011 is detected
+
+📁 Files
+
+mealy_fsm.v - Verilog module implementing FSM.
+
+mealy_fsm_tb.v - Testbench for FSM with sample input.
+
+simulation output
+
+![Image](https://github.com/user-attachments/assets/982e9475-d128-4713-9321-69f716414b7c)
