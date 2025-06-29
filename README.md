@@ -322,3 +322,30 @@ mealy_fsm_tb.v - Testbench for FSM with sample input.
 simulation output
 
 ![Image](https://github.com/user-attachments/assets/982e9475-d128-4713-9321-69f716414b7c)
+
+# Day 18 - Traffic Light Controller using FSM.
+
+🔀 Traffic Light Controller using a Finite State Machine (FSM) in Verilog HDL. The controller manages a two-way traffic system with North-South (NS) and East-West (EW) signals, cycling through four defined states.
+
+Features
+Simple 4-state FSM:
+
+NS Green, EW Red
+
+NS Yellow, EW Red
+
+NS Red, EW Green
+
+NS Red, EW Yellow
+
+📁 Files
+
+traffic_light.v -  Main FSM module.
+
+traffic_light_tb.v - Testbench for simulation.
+
+simulation output
+
+![Image](https://github.com/user-attachments/assets/0a3c44da-4e69-4acb-86e6-184a0424c8e3)
+
+
