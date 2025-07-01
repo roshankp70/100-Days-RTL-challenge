@@ -348,4 +348,15 @@ simulation output
 
 ![Image](https://github.com/user-attachments/assets/0a3c44da-4e69-4acb-86e6-184a0424c8e3)
 
+# Day 19 - Universal Shift Register 
 
+🔀This project contains a Verilog implementation of a 4-bit Universal Shift Register, a sequential circuit capable of performing four operations: hold, right shift, left shift, and parallel load. The design is synchronous, with an active-high reset and a single serial input for both shift operations. A minimal testbench is provided to verify functionality.
+
+📁 Files
+
+USR.V - The main module implementing the 4-bit Universal Shift Register.
+
+USR_TB.V - A testbench to simulate and verify the shift register's operations.
+
+Simulation output
+![Image](https://github.com/user-attachments/assets/13c19b3c-72dc-4bae-b334-26eb35b2f1dd)
