@@ -360,3 +360,22 @@ USR_TB.V - A testbench to simulate and verify the shift register's operations.
 
 Simulation output
 ![Image](https://github.com/user-attachments/assets/13c19b3c-72dc-4bae-b334-26eb35b2f1dd)
+
+# Day 20 - 2x2 Multiplier shift and add method
+
+🔀 This project implements a 2x2 binary multiplier using the shift-and-add method in Verilog. Two 2-bit binary numbers are multiplied to produce a 4-bit result.
+
+The shift-and-add method is a basic algorithm that mimics manual multiplication:
+- For each bit in the multiplier, shift the multiplicand and add if the bit is 1.
+- This is repeated for each bit of the multiplier and summed to get the final product.
+
+📁 Files
+
+2x2 Multiplier.v - Verilog module implementing the shift-and-add multiplier.
+
+2x2 Multiplier_tb.v - Testbench for verifying the multiplier.
+
+Simulation output
+
+![Image](https://github.com/user-attachments/assets/a258c513-1ad6-4f9f-9e54-a40b851aa9f0)
+
