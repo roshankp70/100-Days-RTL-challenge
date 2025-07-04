@@ -379,3 +379,17 @@ Simulation output
 
 ![Image](https://github.com/user-attachments/assets/a258c513-1ad6-4f9f-9e54-a40b851aa9f0)
 
+# Day 21 - Clock Divider: Convert 50MHz to 1Hz.
+
+🔀This project implements a clock divider that takes a 50 MHz input clock and produces a 1 Hz output clock using a 26-bit counter.
+The clock divider works by counting 25 million rising edges of the 50 MHz clock (i.e., 0.5 seconds), then toggling the output clock. This results in a full 1-second period for clk_out, i.e., a 1 Hz clock.
+
+📁 Files
+
+clk_divider.v - verilog module to divide 50 MHz clock down to 1 Hz.
+
+clk_divider_tb.v - Testbench for simulating the clock divider.
+
+Siulation Output
+
+![Image](https://github.com/user-attachments/assets/c0343816-623f-4cfe-ac33-d5f1ca9cfe9b)
