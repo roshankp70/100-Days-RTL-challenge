@@ -390,6 +390,20 @@ clk_divider.v - verilog module to divide 50 MHz clock down to 1 Hz.
 
 clk_divider_tb.v - Testbench for simulating the clock divider.
 
-Siulation Output
+Simulation Output
 
 ![Image](https://github.com/user-attachments/assets/c0343816-623f-4cfe-ac33-d5f1ca9cfe9b)
+
+# Day 22 - One-pulse Generator (button press detector).
+
+🔀 This project implements a One-Pulse Generator using Verilog. It is designed to detect a button press and generate a single clock-cycle-wide pulse, regardless of how long the button is held down. This is useful to avoid multiple triggers due to button bouncing or long key presses
+
+📁 Files
+
+One_Pulse_Generator.v	- Main Verilog module
+
+One_Pulse_Generator_tb.v	- Testbench to simulate and verify behavior
+
+Simulation Output
+
+<img width="1572" height="318" alt="Image" src="https://github.com/user-attachments/assets/d0a41907-9445-48ae-8f5f-462e3316078e" />
