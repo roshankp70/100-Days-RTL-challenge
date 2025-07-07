@@ -407,3 +407,17 @@ One_Pulse_Generator_tb.v	- Testbench to simulate and verify behavior
 Simulation Output
 
 <img width="1572" height="318" alt="Image" src="https://github.com/user-attachments/assets/d0a41907-9445-48ae-8f5f-462e3316078e" />
+
+# Day 23 -  Pulse Width Detector.
+
+🔀This project implements a Pulse Width Detector using Verilog HDL. It measures the duration (width) of an incoming digital pulse using a counter driven by a system clock.
+
+📁 Files
+
+Pulse_Width_Detector.v – Main Verilog module
+
+Pulse_Width_Detector_tb.v – Testbench to simulate the module
+
+Simulation Output
+
+<img width="1577" height="348" alt="Image" src="https://github.com/user-attachments/assets/24261a56-a9b9-4329-8be0-62f4ace9d2e7" />
