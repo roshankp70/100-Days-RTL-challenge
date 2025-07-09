@@ -421,3 +421,29 @@ Pulse_Width_Detector_tb.v – Testbench to simulate the module
 Simulation Output
 
 <img width="1577" height="348" alt="Image" src="https://github.com/user-attachments/assets/24261a56-a9b9-4329-8be0-62f4ace9d2e7" />
+
+# Day 24 - UART RX module.
+
+🔀 This module implements a simple UART Transmitter using Verilog. It supports 8-bit data, with 1 start bit, 1 stop bit, and no parity — commonly referred to as 8N1 format
+
+Features
+
+Transmits 8-bit serial data
+
+Configurable baud rate via CLKS_PER_BIT parameter
+
+send trigger to initiate transmission
+
+busy signal indicates active transmission
+
+Default configuration: 9600 baud @ 50 MHz clock
+
+📁 Files
+
+uart_tx.v -	Main UART transmitter module
+
+uart_tx_tb.v	- Testbench for simulating UART TX
+
+Simulation Output
+
+<img width="1577" height="349" alt="Image" src="https://github.com/user-attachments/assets/ecee0f7c-17a1-4923-a294-fbee81025a11" />
